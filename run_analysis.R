@@ -1,7 +1,7 @@
 library(data.table)
 library(dplyr)
 #setting working directory
-setwd("C:\\Users\\user\\Documents\\COURSERA\\")
+setwd(getwd())
 #reading metadata
 feaname <- read.table("UCI HAR Dataset/features.txt")
 actlabel<- read.table("UCI HAR Dataset/activity_labels.txt", header = FALSE)
