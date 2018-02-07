@@ -5,8 +5,8 @@
  while full description of the data can be viewed from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
  
 ## Steps used in the Analysis
-1. Declare libraries that will be used in the script 'data.table` and 'dplyr'
-2. setting working directory 'setwd()`
+1. Declare libraries that will be used in the script `data.table` and `dplyr`
+2. setting working directory `setwd()`
 3. read metadata: `feaname` and `actlabel` holds the metadata
 4. reading train data: `train_sub` `train_act` `train_fea` hold the train data for subject,activity and feature respectively
 5.reading test data : `test_sub` `test_act` `test_fea` hold the test data for subject,activity and feature respectively
