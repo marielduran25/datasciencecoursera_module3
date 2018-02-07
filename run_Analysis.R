@@ -57,7 +57,7 @@ names(extract_data)
 
 extract_data$Subject <- as.factor(extract_data$Subject)
 extract_data <- data.table(extract_data)
-
+#creating new data that is clean with mean of each activity subject and feature
 cleandata <- aggregate(. ~Subject + Activity, extract_data, mean)
 cleandata <- cleandata[order(cleandata$Subject,cleandata$Activity),]
 write.table(cleandata, file = "cleandata.txt", row.names = FALSE)
