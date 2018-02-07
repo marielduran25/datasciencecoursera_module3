@@ -1,6 +1,6 @@
 # Module 3: Getting and Cleanning Data course project
 ## Files uploaded
-##NOTE: `run_analysis.R` should be in the same directory with the UCI HAR Dataset 
+## NOTE: `run_analysis.R` should be in the same directory with the UCI HAR Dataset 
 
 `codebook.md` cointains all the information about the data and the script used including the variable names etc.
 
