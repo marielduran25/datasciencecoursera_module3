@@ -1,7 +1,7 @@
 # Module 3: Getting and Cleanning Data course project
 ## Files uploaded
 
-`cookbook.md` cointains all the information about the data and the script used including the variable names etc.
+`codebook.md` cointains all the information about the data and the script used including the variable names etc.
 
 `run_Analysis.R` contains the R scriptthat performs the analysis. It can be imported to R studio to run the script.
 
